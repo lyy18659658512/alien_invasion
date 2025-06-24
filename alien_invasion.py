@@ -7,3 +7,4 @@ class AlienInvasion:
 
 def __init__(self):
     """初始化游戏并创建游戏资源"""
+    pygame.init()
