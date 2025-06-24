@@ -8,3 +8,5 @@ class AlienInvasion:
 def __init__(self):
     """初始化游戏并创建游戏资源"""
     pygame.init()
+
+    self.screen = pygame.display.set_mode((1200,800))
